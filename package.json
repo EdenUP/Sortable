@@ -1,6 +1,8 @@
 {
   "name": "@sortablejs/monorepo",
+  "main": "Sortable.js",
   "private": true,
+  "version": "1.0.0",
   "scripts": {
     "test:compat": "ts-node scripts/test-compat.ts",
     "test": "ts-node scripts/test.ts",
