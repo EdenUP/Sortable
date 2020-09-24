@@ -1,5 +1,5 @@
 {
-  "name": "@sortablejs/monorepo",
+  "name": "sortablejs",
   "main": "Sortable.js",
   "private": true,
   "version": "1.0.0",
