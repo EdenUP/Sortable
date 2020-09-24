@@ -1827,7 +1827,8 @@
           touchEvt = touch;
         }
         
-        _dispatchEvent({
+        // on mouse move
+        if (options.onMouseMove) options.onMouseMove({
           sortable: this,
           name: "mousemove",
           originalEvent: evt,
