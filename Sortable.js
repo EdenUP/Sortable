@@ -1826,6 +1826,12 @@
 
           touchEvt = touch;
         }
+        
+        _dispatchEvent({
+          sortable: this,
+          name: "move",
+          originalEvent: evt,
+        });
 
         evt.cancelable && evt.preventDefault();
       }
