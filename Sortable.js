@@ -1829,7 +1829,7 @@
         
         _dispatchEvent({
           sortable: this,
-          name: "move",
+          name: "mousemove",
           originalEvent: evt,
         });
 
